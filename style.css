@@ -75,21 +75,20 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 } 
 .info {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 900px;
     margin-top: 25px;
-    margin-bottom: 30px;
-    color: #3882f6;
+    color: #1F2937;
 }
 .container {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    height: 750px;
     
 }
 .container img {
@@ -98,12 +97,34 @@ a {
     height: auto;
     gap: 52px;
     border-radius: 15% 30% 0 35%  ;
+    
 }
 .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 400px;
     gap: 50px;
-    text-align: center;
+    
 }
 .text2 {
+    max-width: 300px;
     margin-top: 20px;
+    font-size: 20px;
+    color: #1F2937;
+    text-align: center;
+}
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.goal{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 200px;
+    font-style: italic;
 }
