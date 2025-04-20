@@ -138,6 +138,7 @@ a {
     border-radius: 10px;
     padding: 15px;
     margin: 50px;
+    
 }  
 .call {
     display: flex;
@@ -150,6 +151,10 @@ a {
     font-size: 18px;
     width: 400px;
     color: #F9FAF8;
+}
+.box {
+    background-color: black;
+    width: 900px;
 }
 .sign-up{
     background-color: #3882f6;
