@@ -134,21 +134,29 @@ a {
     align-items: center;
     gap: 16px;
     padding: 16px;
-}
-.borderbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1500px;
-    border-radius: 10px;
     background-color: #3882f6;
-}
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px;
+}  
 .call {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 8px;
-    
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.text3 {
+    font-size: 18px;
+    width: 400px;
+    color: #F9FAF8;
+}
+.sign-up{
+    background-color: #3882f6;
+    border: solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    font-weight: 700;
 }
