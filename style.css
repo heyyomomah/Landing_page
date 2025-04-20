@@ -130,8 +130,25 @@ a {
 }
 .modal {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    gap: 16px;
+    padding: 16px;
+}
+.borderbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+.call {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    
 }
