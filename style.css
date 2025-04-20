@@ -7,8 +7,7 @@ body{
     align-items: center;
     background-color: #1F2937;
     padding: 15px;
-
-    
+    gap: 340px;
 }
 ul {
     list-style-type: none;
@@ -40,6 +39,8 @@ a {
     font-size: 48px;
     font-weight: 900px;
     color: #F9FAF8;
+    margin-bottom: 5px;
+    width: 300px;
    
 }
 .text1 {
