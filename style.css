@@ -1,5 +1,5 @@
 body{
-    font-family: Roboto; 
+    font-family: Roboto sans-serif;
 }
 .header{
     display: flex;
@@ -127,4 +127,11 @@ a {
     color: #1F2937;
     padding: 200px;
     font-style: italic;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
